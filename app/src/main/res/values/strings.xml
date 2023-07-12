@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">AppConsultaMedica</string>
+    <string name="txt_titulo">Saúde e Bem Estar</string>
+    <string name="txt_marque_uma_consulta">Marque uma consulta conosco:</string>
+    <string name="txt_hint_edit_Nome_Completo">Nome Completo</string>
+    <string name="txt_hint_edit_Rg">Rg</string>
+    <string name="txt_hint_edit_Telefone_de_Contato">Telefone de Contato</string>
+    <string name="txt_hint_edit_especialista">Especialista</string>
+    <string name="txt_button_salvar_e_finalizar">Salvar e Finalizar</string>
 
 
 </resources>

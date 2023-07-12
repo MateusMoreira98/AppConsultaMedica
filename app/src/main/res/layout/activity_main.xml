@@ -6,125 +6,107 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <EditText
-        android:id="@+id/editTextText5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="RG"
-        android:inputType="text"
-        android:text="Name"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.593"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
-
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="Telefone de Contato"
-        android:inputType="text"
-        android:text="Name"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText5" />
-
-    <EditText
-        android:id="@+id/editTextText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="Especialista"
-        android:inputType="text"
-        android:text="Name"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
-
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="123dp"
-        android:layout_height="35dp"
-        android:text="Saúde e Bem Estar"
+        android:id="@+id/text.TituloApp"
+        android:layout_width="218dp"
+        android:layout_height="47dp"
+        android:layout_margin="16dp"
+        android:text="@string/txt_titulo"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/editmarcarconsulta"
+        android:layout_width="289dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_marque_uma_consulta"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text.TituloApp" />
 
     <EditText
-        android:id="@+id/editTextText2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/editNomeCompleto"
+        android:layout_width="377dp"
+        android:layout_height="71dp"
         android:layout_margin="16dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
-        android:hint="Nome Completo"
+        android:hint="@string/txt_hint_edit_Nome_Completo"
+        android:importantForAutofill="no"
         android:inputType="text"
-        android:text="Name"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/editmarcarconsulta" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="26dp"
-        android:layout_marginTop="16dp"
-        android:text="Marque uma consulta conosco:"
-        android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="32dp"
-        android:text="Salvar"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="32dp"
-        android:text="Limpar"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.157"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <EditText
+        android:id="@+id/editRg"
+        android:layout_width="382dp"
+        android:layout_height="62dp"
         android:layout_margin="16dp"
-        android:text="Finalizar"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="463dp" />
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_Rg"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNomeCompleto" />
+
+    <EditText
+        android:id="@+id/editTelefoneContato"
+        android:layout_width="377dp"
+        android:layout_height="71dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_Telefone_de_Contato"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editRg" />
+
+    <EditText
+        android:id="@+id/editEspecialista"
+        android:layout_width="377dp"
+        android:layout_height="59dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_especialista"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTelefoneContato" />
+
+    <Button
+        android:id="@+id/Salvar"
+        android:layout_width="316dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/txt_button_salvar_e_finalizar"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEspecialista"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
