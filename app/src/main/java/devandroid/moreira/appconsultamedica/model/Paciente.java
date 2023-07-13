@@ -2,13 +2,13 @@ package devandroid.moreira.appconsultamedica.model;
 
 public class Paciente {
 
+
     private String nomeCompleto;
     private String Rg;
     private String especialista;
     private String telefoneContato;
 
     public Paciente(){
-
     }
 
     public String getNomeCompleto() {

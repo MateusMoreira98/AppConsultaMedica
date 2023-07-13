@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     Paciente paciente;
 
-    EditText editnomeCompleto;
+    EditText editNomeCompleto;
     EditText editRg;
     EditText editTelefoneContato;
     EditText editEspecialista;
@@ -27,11 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        paciente = new Paciente();
-        paciente.setNomeCompleto("rodrigo");
-        paciente.setRg("x-12547887");
-        paciente.setTelefoneContato("13152495");
-        paciente.setEspecialista("Clinico Geral");
 
     }
 }
