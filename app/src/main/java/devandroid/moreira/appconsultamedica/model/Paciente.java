@@ -3,7 +3,7 @@ package devandroid.moreira.appconsultamedica.model;
 public class Paciente {
 
 
-    private String nomeCompleto;
+    private String NomeCompleto;
     private String Rg;
     private String especialista;
     private String telefoneContato;
@@ -12,11 +12,11 @@ public class Paciente {
     }
 
     public String getNomeCompleto() {
-        return nomeCompleto;
+        return NomeCompleto;
     }
 
-    public void setNomeCompleto(String nomeCompleto) {
-        this.nomeCompleto = nomeCompleto;
+    public void setNomeCompleto(String NomeCompleto) {
+        this.NomeCompleto = NomeCompleto;
     }
 
     public String getRg() {
@@ -42,7 +42,7 @@ public class Paciente {
     @Override
     public String toString() {
         return "Paciente{" +
-                "nomeCompleto='" + nomeCompleto + '\'' +
+                "nomeCompleto='" + NomeCompleto + '\'' +
                 ", Rg='" + Rg + '\'' +
                 ", especialista='" + especialista + '\'' +
                 ", telefoneContato='" + telefoneContato + '\'' +
