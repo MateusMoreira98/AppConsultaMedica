@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        paciente = new Paciente();
+        paciente.setNomeCompleto("Mateus moreira");
+        paciente.setRg("162727278-x");
+        paciente.setTelefoneContato("14-988888882");
+        paciente.setEspecialista("Clinico Geral");
 
     }
 }
