@@ -14,17 +14,14 @@
         android:text="@string/txt_titulo"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/editmarcarconsulta"
-        android:layout_width="289dp"
-        android:layout_height="38dp"
+        android:layout_width="291dp"
+        android:layout_height="27dp"
         android:layout_marginTop="24dp"
         android:text="@string/txt_marque_uma_consulta"
         android:textSize="20sp"
@@ -36,8 +33,8 @@
 
     <EditText
         android:id="@+id/editNomeCompleto"
-        android:layout_width="377dp"
-        android:layout_height="71dp"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
         android:layout_margin="16dp"
         android:layout_marginTop="32dp"
         android:ems="10"
@@ -52,8 +49,8 @@
 
     <EditText
         android:id="@+id/editRg"
-        android:layout_width="382dp"
-        android:layout_height="62dp"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
         android:layout_margin="16dp"
         android:layout_marginTop="32dp"
         android:ems="10"
@@ -67,46 +64,43 @@
 
     <EditText
         android:id="@+id/editTelefoneContato"
-        android:layout_width="377dp"
-        android:layout_height="71dp"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
         android:layout_margin="16dp"
-        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_Telefone_de_Contato"
         android:importantForAutofill="no"
         android:inputType="text"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editRg" />
 
     <EditText
         android:id="@+id/editEspecialista"
-        android:layout_width="377dp"
-        android:layout_height="59dp"
+        android:layout_width="321dp"
+        android:layout_height="52dp"
         android:layout_margin="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="88dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_especialista"
         android:importantForAutofill="no"
         android:inputType="text"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTelefoneContato" />
 
     <Button
         android:id="@+id/Salvar"
-        android:layout_width="316dp"
+        android:layout_width="252dp"
         android:layout_height="78dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="36dp"
         android:text="@string/txt_button_salvar_e_finalizar"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEspecialista"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/editEspecialista" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
